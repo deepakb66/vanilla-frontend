@@ -1,0 +1,28 @@
+{
+  "name": "vanilla-frontend",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html --open",
+    "build": "parcel build index.html",
+    "lint": "eslint src/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/deepakb66/vanilla-frontend.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/deepakb66/vanilla-frontend/issues"
+  },
+  "homepage": "https://github.com/deepakb66/vanilla-frontend#readme",
+  "description": "",
+  "devDependencies": {
+    "@babel/core": "^7.27.1",
+    "@babel/preset-env": "^7.27.2",
+    "eslint": "^9.26.0",
+    "parcel": "^2.15.0"
+  }
+}
